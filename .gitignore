@@ -1,0 +1,7 @@
+*.pyc
+*~
+*.log
+*.log.*
+.idea
+.DS_Store
+local_settings.py

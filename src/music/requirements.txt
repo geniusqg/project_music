@@ -1,0 +1,14 @@
+django==1.8.5
+MySQL-python
+djangorestframework
+django-filter
+pyzmq
+supervisor
+Jinja2
+gevent
+uwsgi
+django-extensions
+BeautifulSoup4
+requests
+scrapy
+
