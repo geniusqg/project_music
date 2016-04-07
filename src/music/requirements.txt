@@ -1,6 +1,7 @@
 django==1.8.5
 MySQL-python
 djangorestframework
+markdown
 django-filter
 pyzmq
 supervisor

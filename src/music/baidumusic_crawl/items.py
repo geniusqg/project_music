@@ -14,3 +14,4 @@ class BaidumusicItem(scrapy.Item):
     artist = scrapy.Field()
     link = scrapy.Field()
     letter_index = scrapy.Field()
+

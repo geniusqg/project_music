@@ -23,8 +23,8 @@ def main():
 def is_in_same_day(argtime, fixed_point=0):
     if int(time.time()) - int(argtime) >= 3600 * 24:
         return False
-    argtime = datetime.fromtimestamp(int(argtime))
-    now = datetime.now()
+    argtime = datetime.datetime.fromtimestamp(int(argtime))
+    now = datetime.datetime.now()
     if now.day == argtime.day:
         return not (fixed_point > argtime.hour and fixed_point <= now.hour)
     else:

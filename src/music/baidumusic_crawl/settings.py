@@ -9,6 +9,15 @@
 #     http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 #     http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 
+
+import sys
+from os.path import abspath, dirname, join
+sys.path.insert(0, abspath(join(abspath(dirname(__file__)), '..')))
+
+import os
+os.environ['DJANGO_SETTINGS_MODULE'] = 'music.settings'
+
+
 BOT_NAME = 'baidumusic_crawl'
 
 SPIDER_MODULES = ['baidumusic_crawl.spiders']
