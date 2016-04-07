@@ -2,6 +2,7 @@
 *~
 *.log
 *.log.*
+*.json
 .idea
 .DS_Store
 local_settings.py
